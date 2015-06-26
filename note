@@ -25,5 +25,8 @@ git reflog 查看命令历史这样就可以回到未来的哪个版本
 4.丢弃工作区的修改
 git checkout -- file :缓存区无法丢弃，可使用reset HEAD 回到缓存区之前的状态再丢弃工作区修改
 
+删除：git rm file 提交到缓存区
+可通过： git checkout --file 撤销删除修改
+
 
 
