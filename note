@@ -22,3 +22,8 @@ git reset --hard HEAD^  回退到上一版本
 git reflog 查看命令历史这样就可以回到未来的哪个版本
 还可以恢复回去的哦，只要commit id知道前6位即可
 
+4.丢弃工作区的修改
+git checkout -- file :缓存区无法丢弃，可使用reset HEAD 回到缓存区之前的状态再丢弃工作区修改
+
+
+
