@@ -19,5 +19,6 @@ HEAD^      上一个版本
 HEAD^^     上上一个版本
 HEAD^100   往上100个版本
 git reset --hard HEAD^  回退到上一版本
+git reflog 查看命令历史这样就可以回到未来的哪个版本
 还可以恢复回去的哦，只要commit id知道前6位即可
 
