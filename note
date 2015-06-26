@@ -4,3 +4,11 @@ git分布式版本控制
 1:创建git版本库：git init
 ls -ah : 使隐藏目录显示    pwd: 显示当前目录路径
 
+2.提交修改文件到版本库
+git status 查看是否存在修改
+git add <file>  添加修改到缓存
+git commit m '描述～' 提交到库
+
+git diff file  当前文件与暂存区的不同地方
+
+
